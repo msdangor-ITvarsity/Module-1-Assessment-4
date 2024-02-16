@@ -1,0 +1,55 @@
+p{
+    font-weight: 600;
+    font-size: 25px;
+    font-family: Halvetica, sans-serif;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#menu-bar a{
+    text-decoration: none;
+    font-family: Helvetica, fantasy;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    
+    background-image: url(images/menu-button-hover.gif);
+    background-repeat: no-repeat;
+    display: block;
+    width: 128px;
+    height: 25px;
+    padding-top: 1px;
+    padding-right: 5px;
+  
+}
+
+#menu-bar a:hover{
+    color: #1A43BF;
+    
+}
+
+body{
+    background-color: #420D09;
+    
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+
+p:hover a{
+    color: #8D021F;
+    font-weight: 700;
+    font-size: 30px;
+
+}
